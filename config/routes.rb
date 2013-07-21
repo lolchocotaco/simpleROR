@@ -9,6 +9,11 @@ SimpleROR::Application.routes.draw do
   resources :users
 
 
+  # Rails router. Maps link to controllers. 
+  # Equivalent to Tomcat mappings to servlets
+  
+  
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
