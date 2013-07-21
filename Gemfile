@@ -2,7 +2,6 @@ source 'https://rubygems.org'
 # The file that tells you what you need
 
 gem 'rails', '4.0.0'
-gem 'ruby' '1.9.3'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
