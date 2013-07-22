@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby '2.0.0'
 # The file that tells you what you need
 
 gem 'rails', '4.0.0'
