@@ -8,8 +8,8 @@ gem 'rails', '4.0.0'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 group :development, :test do
-  gem 'sqlite3', '1.3.5'
-  gem 'rspec-rails', '2.11.0'
+  gem 'sqlite3', '1.3.7'
+  gem 'rspec-rails', '2.13.1'
 end
 
 group :test do
@@ -28,7 +28,11 @@ gem 'jquery-rails', '2.2.1'
 gem 'turbolinks', '1.1.1'
 gem 'jbuilder', '1.0.2'
 #end
-# gem 'jquery-rails', '2.0.2'
+
+group :doc do
+  gem 'sdoc', '0.3.20', require: false
+end
+
 
 group :production do
   gem 'pg', '0.15.1'
